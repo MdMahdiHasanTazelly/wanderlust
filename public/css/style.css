@@ -1,0 +1,139 @@
+.boiler-body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+body{
+    background-color: pink;
+    height: 100%;
+}
+.container{
+    flex: 1;
+}
+
+
+/* navbar */
+.navbar{
+    height: 5rem;
+    padding-left: 1.5rem !important;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+
+}
+.nav-link{
+    color: #222222 !important;
+}
+.serach-btn{
+    border-radius: 2.5rem !important;
+    padding: 0rem 1rem !important ;
+}
+.serach-btn i {
+    display: inline;
+}
+.search-inp{
+    border-radius: 25px !important;
+    padding: 0.5rem 3rem !important;
+}
+
+
+/* Footer style */
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links:hover{
+    text-decoration: underline;
+}
+.f-info-socials, .f-info-links, .f-info-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.f-info{
+    height: 6rem;
+    display: flex;
+    background-color: #ebebeb;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* Card */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem;
+    width: 100% !important;
+    height: 15rem;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0rem !important;
+}
+.card-text{
+    font-weight: 400 !important;
+}
+.card>a{
+    text-decoration: none;
+    color: #222222;
+}
+.card-img-overlay{
+    font-weight: 800;
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    background-color: white;
+    opacity: 0.2;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: #fe424d ;
+}
+.btn:hover{
+    background-color: #e11b28 !important;
+    box-shadow: 1.5px 3px 5px #222222 !important;
+}
+
+/* Show page */
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* for map */
+#mapBox{ 
+    height: 300px;
+    width: 80vh;
+}
+#map {  
+    height: 300px;
+    width: 80vh;
+}
+
+
+#menu {
+    position: absolute;
+    z-index: 2;
+    background: rgba(239, 239, 239, 0.6);
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
