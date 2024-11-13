@@ -17,7 +17,7 @@ To run the project locally, go through the following steps:
      git clone https://github.com/MdMahdiHasanTazelly/wanderlust
     
 ### 3. Navigate to the main project directory <br/>
-       cd wandelust 
+       cd wanderlust 
 
 ### 4. Install all the dependencies. <br/>
       npm intall
@@ -61,5 +61,22 @@ contributons are most welcomed!
 
 ## Screenshots
 
-   ##Login & Signup page
+   ### Home page
+   <img alt="Home Page Image" src="./screenshots/wanderlust_homePage.png" width="60%"> 
+
+   ### Login & Signup page
+   <img alt="login page" src="./screenshots/logIn.png" width="50%"/>
+   <img alt="signup page" src="./screenshots//signUp.png" width="50%">
    
+   ### Add new listing page
+   <img alt="Add new listing image" src="./screenshots/addNewListings.png" width="60%"/>
+
+   ### Listings Hero section
+   <img alt="listings hero image" src="./screenshots/listing.png" width="60%"/>
+
+   ### Ratings
+   <img alt="Rating part of listing page" src="./screenshots/ratings.png" width="60%"/>
+
+   ### Map 
+   <img alt="map part of listing page" src="./screenshots/map.png" width="60%"/>
+
